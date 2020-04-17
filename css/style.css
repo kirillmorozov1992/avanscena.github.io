@@ -1,0 +1,337 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1.5em;
+	background-color: #D3D3D3;
+	color: #131313;
+}
+
+p {
+	padding: 0 0 20px 0;
+	line-height: 1.7em;
+}
+
+h1, h2 {
+	font: normal 170% 'Oswald', sans-serif;
+	margin: 0 0 15px 0;
+	padding: 0px 0 5px 0;
+	color: #000;
+}
+
+h2 {
+	font-size: 120%;
+}
+
+hr {
+	border: solid 1px #000;
+}
+
+img {
+	border-radius: 20px;
+	border: solid 5px #dad7d5;
+}
+
+.header {
+	background-color: #000;
+	height: 300px;
+	font-size: 1.5em;
+	margin-left: 0px;
+	margin-right: 0px;
+	min-width: 900px;
+}
+
+.main, .logo, .menubar, .site_content, .footer {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo {
+	width: 900px;
+	padding-bottom: 40px;
+}
+
+.logo h1, h2 {
+	margin: 0 0 0 9px;
+}
+
+.logo_text h1, .logo_text h1 a, .logo_text h1 a:hover {
+	text-decoration: none;
+	color: #fff;
+	font: normal 170% 'Marck Script', cursive;
+}
+
+.logo_text h2 {
+	font-size: 0.9em;
+	padding: 4px 0 0 0;
+	color: #fff;
+}
+
+.menubar {
+	width: 1100px;
+	height: 46px;
+}
+
+ul.menu {
+	float: right;
+}
+
+ul.menu li {
+	float: left;
+	padding: 0 0 0 15px;
+	font-size: 0.9em;
+	list-style: none;
+	margin: 1px 2px 0 0;
+}
+
+ul.menu li a {
+	font: normal 100% 'Oswald', sans-serif;
+	display: block;
+	height: 20px;
+	padding: 6px 35px 5px 28px;
+	color: #fff;
+	text-decoration: none;
+}
+
+ul.menu li.selected a {
+	color: #aeb002;
+}
+
+ul.menu li a:hover {
+	color: #e4ec04;
+}
+
+.site_content {
+	width: 1200px;
+	margin: 0 auto 0 auto;
+	background-color: white;
+	overflow: hidden;
+}
+
+.content {
+	text-align: left;
+	font-size: 1.2em;
+}
+
+.content h1 {
+	text-align: center;
+}
+
+.manifest {
+	text-align: center;
+	margin: 0 40px 0 40px;
+}
+
+.posts img {
+	width: 30%;
+	float: left;
+}
+
+.posts {
+	margin-bottom: 220px;
+}
+
+.post_1, .post_2, .post_3 {
+	text-align: center;
+	margin: 10px 80px 90px 10px;
+}
+
+.post_1 {
+	margin-bottom: 0px;
+}
+
+.info {
+	margin: 0 40px 0 40px;
+	text-align: center;
+}
+
+.info img {
+	width: 30%;
+	float: left;
+	margin-right: 15px;
+}
+
+.show_1 img, .show_2 img, .show_3 img, .show_4 img, .show_5 img {
+	width: 30%;
+	float: left;
+	margin: 10px 20px 0 10px;
+}
+
+.show_4 img, .show_5 img {
+	margin-bottom: 100px;
+	margin-top: 30px;
+}
+
+.show_1, .show_2, .show_3, .show_4, .show_5 {
+	text-align: center;
+	margin: 20px 40px 2px 0;
+}
+
+.show_1 {
+	margin-bottom: 120px;
+}
+
+.actors img {
+	width: 40%;
+	display: block;
+	margin: 35px auto 10px auto;
+}
+
+.actors {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.contacts {
+	text-align: center;
+	margin: 25px 70px 15px 70px;
+}
+
+.footer {
+	width: 100%;
+	height: 100%;
+	padding: 28px 0 5px 0;
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+	margin-left: 0px;
+	margin-right: 0px;
+	min-width: 900px;
+}
+
+.footer a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	color: #e4ec04;
+	text-decoration: none;
+}
+
+.footer p {
+	padding: 0 0 10px 0;
+}
+
+/* CSS Mobile */
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+
+	.header {
+		min-width: 100%;
+		height: 20%;
+		text-align: center;
+	}
+
+	.logo {
+		width: 100%;
+		padding-bottom: 5%;
+	}
+
+	.site_content {
+		width: 100%;
+		text-align: center;
+	}
+
+	.menubar {
+		width: 100%;
+		height: 100%;
+	}
+
+	.content {
+		width: 100%;
+		text-align: center;
+	}
+
+	.footer {
+		display: none;
+	}
+
+	ul.menu {
+		float: none;
+	}
+
+	ul.menu li {
+		margin: 0;
+		padding: 0;
+		float: none;
+		font-size: 40%;
+	}
+
+	.logo h1 {
+		font: normal 70% 'Marck Script', cursive;
+	}
+
+	.logo h2 {
+		font: normal 30% 'Oswald', sans-serif;
+	}
+
+	.content {
+		font-size: 70%;
+	}
+
+	hr {
+		display: none;
+	}
+
+	.posts img {
+		width: 100%;
+		float: none;
+	}
+
+	.posts {
+		margin: 5%;
+	}
+
+	.post_1, .post_2, .post_3 {
+		margin: 5%;
+	}
+
+	/* about page */
+
+	.info img {
+		width: 100%;
+		margin: auto;
+		float: none;
+	}
+
+	/* show page */
+
+	.show_1 img, .show_2 img, .show_3 img, .show_4 img, .show_5 img {
+		width: 100%;
+		margin: auto;
+	}
+
+	.show_1, .show_2, .show_3, .show_4, .show_5 {
+		text-align: center;
+		margin: 5%;
+	}
+
+	.show_1 h2, .show_2 h2, .show_3 h2, .show_4 h2, .show_5 h2 {
+		margin: auto;
+	}
+
+	/* actors page */
+
+	.actors img {
+		width: 90%;
+	}
+
+	/* contacts page */
+
+	.contacts iframe {
+		display: none;
+	}
+
+	.contacts {
+		margin: 2%;
+	}
+
+
+
+
+}
